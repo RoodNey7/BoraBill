@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    int val, cont=0;
+    
+    printf("Indique um número para a contagem regressiva iniciar: \n ");
+    scanf ("%i" , &val);
+    
+    while(val >= cont){
+        
+        printf("%i\n", val);
+        
+        val--;
+        
+    }
+    return 0;
+}
