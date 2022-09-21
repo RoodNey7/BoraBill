@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int tab = 0;
+    printf("Digite um número para saber sua tabuada até o valor digitado: ");
+    scanf("%d", &tab);
+    
+    for (int x = 1; x<=tab; ++x){
+        
+        printf("%ix%i = %i\n", x, tab, x * tab);    
+    }
+
+    return 0;
+}
